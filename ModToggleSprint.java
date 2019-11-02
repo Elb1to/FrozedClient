@@ -1,7 +1,11 @@
-package frozedclient.mods.impl;
+package (YourClient).mods.impl;
 
-import frozedclient.gui.hud.ScreenPosition;
-import frozedclient.mods.ModDraggable;
+import (YourClient).gui.hud.ScreenPosition;
+import (YourClient).mods.ModDraggable;
+
+// Remember to replace "(YourClient)" with the actual name of your client
+// Also remove the "(" and ")"
+// Duh xd
 
 public class ModToggleSprint extends ModDraggable {
 
@@ -29,10 +33,10 @@ public class ModToggleSprint extends ModDraggable {
 		if(isEnabled() ) {
 			this.ToggleSprint = "§bSprinting";
 			mc.thePlayer.setSprinting(true);
-		} else {
+		} /*else {
 			this.ToggleSprint = "§bWalking";
 			mc.thePlayer.setSprinting(false);
-		}
+		}*/
 		
 	}
 
