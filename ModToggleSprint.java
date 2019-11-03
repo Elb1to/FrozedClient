@@ -30,7 +30,7 @@ public class ModToggleSprint extends ModDraggable {
 	 	* so ToggleSprint can actually be toggleable
 	 	* if(mc.gameSettings.CLIENT_TOGGLE_SPRINT.isPressed()) {
 	 	*/
-		if(isEnabled() ) {
+		if(isEnabled()) {
 			this.ToggleSprint = "§bSprinting";
 			mc.thePlayer.setSprinting(true);
 		} /*else {
